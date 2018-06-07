@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-06-07T07:07:05Z" name="Suite" finished-at="2018-06-07T07:12:34Z" duration-ms="328799">
+    <groups>
+    </groups>
+    <test started-at="2018-06-07T07:07:05Z" name="Test" finished-at="2018-06-07T07:12:34Z" duration-ms="328799">
+      <class name="com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding">
+        <test-method is-config="true" signature="testStart()[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:07:05Z" name="testStart" finished-at="2018-06-07T10:07:05Z" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:07:05Z" name="setUp" finished-at="2018-06-07T10:07:09Z" duration-ms="3492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:07:09Z" name="beforeMethod" finished-at="2018-06-07T10:07:09Z" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding.CreateNewAccountDE() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="CreateNewAccountDE()[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:07:09Z" name="CreateNewAccountDE" description="Create new Accounts that include New User,Email Validation, Payment Data, Complete Onboarding" finished-at="2018-06-07T10:08:42Z" duration-ms="92969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewAccountDE -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:08:42Z" name="afterMethod" finished-at="2018-06-07T10:08:42Z" duration-ms="617" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateNewAccountDE status=SUCCESS method=createAccountandCompleteOnboarding.CreateNewAccountDE()[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:08:42Z" name="beforeMethod" finished-at="2018-06-07T10:08:42Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding.AddNewDomain() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="AddNewDomain()[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:08:42Z" name="AddNewDomain" finished-at="2018-06-07T10:08:57Z" depends-on-methods="com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding.CreateNewAccountDE" duration-ms="14442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddNewDomain -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:08:57Z" name="afterMethod" finished-at="2018-06-07T10:08:57Z" duration-ms="386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddNewDomain status=SUCCESS method=createAccountandCompleteOnboarding.AddNewDomain()[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:08:57Z" name="beforeMethod" finished-at="2018-06-07T10:08:57Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding.CompleteDomainDetails() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="CompleteDomainDetails()[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:08:57Z" name="CompleteDomainDetails" finished-at="2018-06-07T10:09:19Z" depends-on-methods="com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding.AddNewDomain" duration-ms="21770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompleteDomainDetails -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:09:19Z" name="afterMethod" finished-at="2018-06-07T10:09:19Z" duration-ms="407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CompleteDomainDetails status=SUCCESS method=createAccountandCompleteOnboarding.CompleteDomainDetails()[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:09:19Z" name="beforeMethod" finished-at="2018-06-07T10:09:19Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding.SelectBusinessSectors() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="SelectBusinessSectors()[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:09:19Z" name="SelectBusinessSectors" finished-at="2018-06-07T10:09:39Z" depends-on-methods="com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding.CompleteDomainDetails" duration-ms="19289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBusinessSectors -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:09:39Z" name="afterMethod" finished-at="2018-06-07T10:09:39Z" duration-ms="369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectBusinessSectors status=SUCCESS method=createAccountandCompleteOnboarding.SelectBusinessSectors()[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:09:39Z" name="beforeMethod" finished-at="2018-06-07T10:09:39Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding.Customerslocation() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Customerslocation()[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:09:39Z" name="Customerslocation" finished-at="2018-06-07T10:09:50Z" depends-on-methods="com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding.SelectBusinessSectors" duration-ms="10851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Customerslocation -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:09:50Z" name="afterMethod" finished-at="2018-06-07T10:09:50Z" duration-ms="479" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Customerslocation status=SUCCESS method=createAccountandCompleteOnboarding.Customerslocation()[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:09:50Z" name="beforeMethod" finished-at="2018-06-07T10:09:50Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding.VerifyIfYourLocalDirectories() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyIfYourLocalDirectories()[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:09:50Z" name="VerifyIfYourLocalDirectories" finished-at="2018-06-07T10:09:58Z" depends-on-methods="com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding.SelectBusinessSectors" duration-ms="7611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyIfYourLocalDirectories -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:09:58Z" name="afterMethod" finished-at="2018-06-07T10:09:58Z" duration-ms="376" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyIfYourLocalDirectories status=SUCCESS method=createAccountandCompleteOnboarding.VerifyIfYourLocalDirectories()[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:09:58Z" name="beforeMethod" finished-at="2018-06-07T10:09:58Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding.SelectYourPlatform() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="SelectYourPlatform()[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:09:58Z" name="SelectYourPlatform" finished-at="2018-06-07T10:10:07Z" depends-on-methods="com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding.Customerslocation" duration-ms="8532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectYourPlatform -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:10:07Z" name="afterMethod" finished-at="2018-06-07T10:10:07Z" duration-ms="365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectYourPlatform status=SUCCESS method=createAccountandCompleteOnboarding.SelectYourPlatform()[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:10:07Z" name="beforeMethod" finished-at="2018-06-07T10:10:07Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding.TypeYourKeyWords() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TypeYourKeyWords()[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:10:07Z" name="TypeYourKeyWords" finished-at="2018-06-07T10:10:21Z" depends-on-methods="com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding.VerifyIfYourLocalDirectories" duration-ms="13747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TypeYourKeyWords -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:10:21Z" name="afterMethod" finished-at="2018-06-07T10:10:21Z" duration-ms="369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TypeYourKeyWords status=SUCCESS method=createAccountandCompleteOnboarding.TypeYourKeyWords()[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:10:21Z" name="beforeMethod" finished-at="2018-06-07T10:10:21Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding.SelectYourKeywords() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="SelectYourKeywords()[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:10:21Z" name="SelectYourKeywords" finished-at="2018-06-07T10:10:47Z" depends-on-methods="com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding.TypeYourKeyWords" duration-ms="25445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectYourKeywords -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:10:47Z" name="afterMethod" finished-at="2018-06-07T10:10:47Z" duration-ms="384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectYourKeywords status=SUCCESS method=createAccountandCompleteOnboarding.SelectYourKeywords()[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:10:47Z" name="beforeMethod" finished-at="2018-06-07T10:10:47Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding.VerifyYourKeywords() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyYourKeywords()[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:10:47Z" name="VerifyYourKeywords" finished-at="2018-06-07T10:10:55Z" depends-on-methods="com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding.SelectYourKeywords" duration-ms="7782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyYourKeywords -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:10:55Z" name="afterMethod" finished-at="2018-06-07T10:10:55Z" duration-ms="499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyYourKeywords status=SUCCESS method=createAccountandCompleteOnboarding.VerifyYourKeywords()[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:10:55Z" name="beforeMethod" finished-at="2018-06-07T10:10:55Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding.SelectCompetitors() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="SelectCompetitors()[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:10:55Z" name="SelectCompetitors" finished-at="2018-06-07T10:11:46Z" depends-on-methods="com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding.VerifyYourKeywords" duration-ms="50874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectCompetitors -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:11:46Z" name="afterMethod" finished-at="2018-06-07T10:11:47Z" duration-ms="411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectCompetitors status=SUCCESS method=createAccountandCompleteOnboarding.SelectCompetitors()[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:11:47Z" name="beforeMethod" finished-at="2018-06-07T10:11:47Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding.VeirifyAnalysisPage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VeirifyAnalysisPage()[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:11:47Z" name="VeirifyAnalysisPage" finished-at="2018-06-07T10:12:06Z" depends-on-methods="com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding.SelectCompetitors" duration-ms="19358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VeirifyAnalysisPage -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:12:06Z" name="afterMethod" finished-at="2018-06-07T10:12:07Z" duration-ms="504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VeirifyAnalysisPage status=SUCCESS method=createAccountandCompleteOnboarding.VeirifyAnalysisPage()[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:12:07Z" name="beforeMethod" finished-at="2018-06-07T10:12:07Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding.UpgradeSubscriptionTo360() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="UpgradeSubscriptionTo360()[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:12:07Z" name="UpgradeSubscriptionTo360" finished-at="2018-06-07T10:12:32Z" depends-on-methods="com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding.VeirifyAnalysisPage" duration-ms="25717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpgradeSubscriptionTo360 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:12:32Z" name="afterMethod" finished-at="2018-06-07T10:12:33Z" duration-ms="390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UpgradeSubscriptionTo360 status=SUCCESS method=createAccountandCompleteOnboarding.UpgradeSubscriptionTo360()[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:12:33Z" name="tearDown" finished-at="2018-06-07T10:12:34Z" duration-ms="867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="testResult()[pri:0, instance:com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding@61386958]" started-at="2018-06-07T10:12:34Z" name="testResult" finished-at="2018-06-07T10:12:34Z" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResult -->
+      </class> <!-- com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

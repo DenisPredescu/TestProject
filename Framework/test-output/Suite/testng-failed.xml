@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding">
+        <methods>
+          <include name="TypeYourKeyWords"/>
+          <include name="VerifyYourKeywords"/>
+          <include name="SelectCompetitors"/>
+          <include name="CreateNewAccountDE"/>
+          <include name="tearDown"/>
+          <include name="SelectYourKeywords"/>
+          <include name="testStart"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="AddNewDomain"/>
+          <include name="SelectBusinessSectors"/>
+          <include name="VerifyIfYourLocalDirectories"/>
+          <include name="VeirifyAnalysisPage"/>
+          <include name="testResult"/>
+          <include name="CompleteDomainDetails"/>
+          <include name="UpgradeSubscriptionTo360"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
